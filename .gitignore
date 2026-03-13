@@ -33,6 +33,15 @@ yarn-error.*
 # local env files
 .env*.local
 
+# Environment files with real credentials (keep .env.* templates, but not local overrides)
+# Commit .env.development / .env.production as templates with placeholder values only
+# Never commit real API keys, client IDs, or secrets
+google-play-service-account.json
+*.p8
+
+# EAS
+.eas/
+
 # typescript
 *.tsbuildinfo
 
