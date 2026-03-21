@@ -6,6 +6,7 @@ export default function CreditCardsLayout() {
   return (
     <Stack
       screenOptions={{
+        title: 'Credit Cards',
         headerStyle: { backgroundColor: colors.surface },
         headerTintColor: colors.textPrimary,
         headerShadowVisible: false,

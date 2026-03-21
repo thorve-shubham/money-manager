@@ -6,6 +6,7 @@ export default function DashboardLayout() {
   return (
     <Stack
       screenOptions={{
+        title: 'Money Manager',
         headerStyle: { backgroundColor: colors.surface },
         headerTintColor: colors.textPrimary,
         headerShadowVisible: false,

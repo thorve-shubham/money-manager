@@ -6,6 +6,7 @@ export default function AccountsLayout() {
   return (
     <Stack
       screenOptions={{
+        title: 'Accounts',
         headerStyle: { backgroundColor: colors.surface },
         headerTintColor: colors.textPrimary,
         headerShadowVisible: false,

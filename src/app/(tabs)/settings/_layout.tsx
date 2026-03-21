@@ -6,6 +6,7 @@ export default function SettingsLayout() {
   return (
     <Stack
       screenOptions={{
+        title: 'Settings',
         headerStyle: { backgroundColor: colors.surface },
         headerTintColor: colors.textPrimary,
         headerShadowVisible: false,
